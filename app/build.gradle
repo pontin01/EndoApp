@@ -1,0 +1,28 @@
+plugins {
+    id 'com.android.application'
+}
+
+group = 'com.example.endoapp'
+version = '1.0-SNAPSHOT'
+
+android {
+    namespace 'com.example.endoapp'
+
+    compileSdk 36
+
+    defaultConfig {
+        applicationId 'com.example.endoapp'
+        minSdk 24
+        targetSdk 36
+        versionCode 1
+        versionName '1.0'
+    }
+}
+
+kotlin {
+    jvmToolchain(21)
+}
+
+dependencies {
+    testImplementation 'org.jetbrains.kotlin:kotlin-test'
+}
