@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="red1">#d06c78</color>
+    <color name="red2">#c44555</color>
+
+
+
+    <color name="background">#d06c78</color>
+
+<!--    Button    -->
+    <color name="buttonBackground">#ffffff</color>
+    <color name="buttonText">#000000</color>
+
+<!--    Text    -->
+    <color name="logoText1">#ffffff</color>
+    <color name="logoText2">#000000</color>
+</resources>

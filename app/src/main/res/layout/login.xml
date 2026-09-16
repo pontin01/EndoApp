@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@android:color/white">
+
+    <TextView
+        android:layout_width="300pt"
+        android:layout_height="70pt"
+        android:layout_marginTop="-60pt"
+        android:layout_gravity="center"
+        android:gravity="center"
+
+        android:text="@string/openingPage_logo"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/logo"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-30pt"
+        android:layout_gravity="center"
+        android:gravity="center"
+
+        android:text="@string/loginPage_title"
+        android:textSize="10pt"
+        android:textColor="@android:color/black"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="52pt"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <!--Username or Email Input-->
+        <EditText
+            android:id="@+id/emailInput"
+            android:layout_width="300dp"
+            android:layout_height="25pt"
+
+            android:autofillHints="emailAddress"
+            android:hint="@string/loginPage_usernameEmailInput"
+            android:inputType="textEmailAddress" />
+
+        <!--Password Input-->
+        <EditText
+            android:id="@+id/passwordInput"
+            android:layout_width="300dp"
+            android:layout_height="25pt"
+
+            android:autofillHints="password"
+            android:hint="@string/loginPage_passwordInput"
+            android:inputType="textPassword" />
+
+        <!--Go Button-->
+        <Button
+            android:id="@+id/goButton"
+            android:layout_width="40pt"
+            android:layout_height="20pt"
+            android:layout_marginTop="20pt"
+
+            android:background="@drawable/go_button_outline"
+
+            android:text="Go"
+            android:textSize="9pt" />
+        @color/red2
+        <TextView
+            android:id="@+id/invalidLoginCredentials"
+            android:layout_width="wrap_content"
+            android:layout_height="10pt"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="20pt"
+
+            android:visibility="invisible"
+
+            android:text="Invalid Login Credentials"
+            android:textSize="8pt"
+            android:textColor="@android:color/holo_red_dark" />
+
+    </LinearLayout>
+
+    <!-- Back arrow -->
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="15pt"
+        android:layout_height="15pt"
+        android:contentDescription="Back button"
+        android:src="@drawable/back_arrow"
+        android:background="@android:color/transparent"
+        android:layout_gravity="top|start"
+        android:layout_marginStart="10pt"
+        android:layout_marginTop="30pt"
+        android:scaleType="centerInside" />
+
+</FrameLayout>

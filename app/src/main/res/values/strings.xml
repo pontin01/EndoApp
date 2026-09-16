@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    Opening Page    -->
+    <string name="openingPage_login">Login</string>
+    <string name="openingPage_signUp">Sign Up</string>
+    <string name="openingPage_logo">EndoApp</string>
+
+<!--    Login Page    -->
+    <string name="loginPage_usernameEmailInput">Username or Email</string>
+    <string name="loginPage_passwordInput">Password</string>
+    <string name="loginPage_title">Login</string>
+    <string name="loginPage_backButton">Back</string>
+
+<!--    Sign Up Page    -->
+    <string name="signUpPage_usernameInput">Username</string>
+    <string name="signUpPage_emailInput">Email</string>
+    <string name="signUpPage_passwordInput">Password</string>
+    <string name="signUpPage_passwordConfirmInput">Confirm Password</string>
+</resources>
