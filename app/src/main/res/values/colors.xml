@@ -14,4 +14,22 @@
 <!--    Text    -->
     <color name="logoText1">#ffffff</color>
     <color name="logoText2">#000000</color>
+
+
+    <!--Bottom Bar-->
+    <color name="bottom_bar_bg">#e4aab1</color>
+    <color name="bottom_bar_home_bg">#d06c78</color>
+
+    <!--Home Page-->
+    <color name="home_bg">#ffffff</color>
+
+    <color name="welcome_gradient_start">#c44555</color>
+    <color name="welcome_gradient_center">#d06c78</color>
+    <color name="welcome_gradient_end">#e4aab1</color>
+
+    <color name="button_bg">#eabcc1</color>
+
+
+
+
 </resources>

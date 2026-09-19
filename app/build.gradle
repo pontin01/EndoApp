@@ -1,6 +1,7 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.plugin.serialization'
+    id 'org.jetbrains.kotlin.plugin.compose'
 }
 
 group = 'com.example.endoapp'
@@ -9,12 +10,12 @@ version = '1.0-SNAPSHOT'
 android {
     namespace 'com.example.endoapp'
 
-    compileSdk 36
+    compileSdk 37
 
     defaultConfig {
         applicationId 'com.example.endoapp'
         minSdk 24
-        targetSdk 36
+        targetSdk 37
         versionCode 1
         versionName '1.0'
     }
@@ -27,7 +28,14 @@ kotlin {
 dependencies {
     testImplementation 'org.jetbrains.kotlin:kotlin-test'
 
-    implementation 'androidx.appcompat:appcompat:1.8.0'
+    implementation platform('androidx.compose:compose-bom:2026.09.00')
+    implementation 'androidx.compose.ui:ui'
+    implementation 'androidx.compose.ui:ui-tooling-preview'
+    implementation 'androidx.compose.material3:material3'
+
+    implementation 'androidx.activity:activity-compose:1.13.0'
+
+    implementation 'androidx.navigation:navigation-compose:2.10.1'
 
     implementation platform('io.github.jan-tennert.supabase:bom:3.8.0')
 

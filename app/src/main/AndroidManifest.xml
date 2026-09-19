@@ -17,11 +17,11 @@
 
         </activity>
 
-        <activity android:name=".ui.Login"
+        <activity android:name=".ui.LoginScreen"
             />
-        <activity android:name=".ui.SignUp"
+        <activity android:name=".ui.SignUpScreen"
             />
-        <activity android:name=".ui.Home"
+        <activity android:name=".ui.HomeScreen"
             />
 
     </application>
