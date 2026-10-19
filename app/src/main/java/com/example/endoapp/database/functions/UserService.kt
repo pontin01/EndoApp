@@ -1,42 +1,54 @@
 package com.example.endoapp.database.functions
 
-import com.example.endoapp.database.SupabaseClient
+import android.content.Context
+import androidx.compose.ui.platform.LocalContext
+import com.example.endoapp.R
 import com.example.endoapp.database.User
+import com.example.endoapp.database.supabase
+import com.example.endoapp.state.AuthHash
+import com.example.endoapp.state.UserDetails
 import io.github.jan.supabase.postgrest.from
+import io.github.jan.supabase.postgrest.query.Columns
+import java.io.File
+import java.security.MessageDigest
 
-class UserService(private val user: User) {
-
-    private val supabase = SupabaseClient.supabase
-
-    suspend fun usernameExists(): Boolean {
-        return supabase
-            .from("user")
-            .select {
+class UserService {
+    suspend fun getAuthHash(email: String) : String {
+        val user = supabase.from("user")
+            .select(columns = Columns.list("auth_hash")) {
                 filter {
-                    eq("username", user.username)
+                    eq("email", email)
                 }
             }
-            .decodeList<User>()
-            .isNotEmpty()
+            .decodeSingle<User>()
+
+        return user.authHash
     }
 
-    suspend fun emailExists(): Boolean {
-        return supabase
-            .from("user")
-            .select {
+    suspend fun getUser(authHash: String) : User {
+        val user = supabase.from("user")
+            .select(columns = Columns.list("email,username")) {
                 filter {
-                    eq("email", user.email)
+                    eq("auth_hash", authHash)
                 }
             }
-            .decodeList<User>()
-            .isNotEmpty()
+            .decodeSingle<User>()
+
+        return user
     }
 
-    suspend fun createUser() {
-        supabase
-            .from("user")
-            .insert(
-                user
-            )
+    suspend fun createUser(email: String, username: String, password: String, context: Context) {
+        val authHash = AuthHash().createAuthHash(email, password)
+
+        // Create User on Supabase database
+        val user = User(email, username, authHash)
+        supabase.from("user")
+            .insert(user)
+
+        // create authHash and userDetails for app
+        AuthHash().setAuthHashLocally(authHash, context)
+        UserDetails().setUserDetails(user, context)
     }
+
+
 }
