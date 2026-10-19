@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- One FAQ row. Tap anywhere on the card to show/hide the answer. -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/faqCard"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/card_white_rounded"
+    android:padding="16dp"
+    android:layout_marginBottom="12dp"
+    android:elevation="2dp"
+    android:clickable="true"
+    android:focusable="true">
+
+    <!-- Question row -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/questionText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="What causes endometriosis pain?"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                android:textColor="#2B1F27" />
+
+            <!-- Tag + likes -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/likeCountText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="♥ 24"
+                    android:textStyle="bold"
+                    android:textSize="11sp"
+                    android:textColor="#C1577B" />
+
+                <TextView
+                    android:id="@+id/tagText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:text="Pain"
+                    android:textSize="11sp"
+                    android:textColor="#8A7C82" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/expandArrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="›"
+            android:textSize="20sp"
+            android:textColor="#C1577B"
+            android:layout_marginStart="8dp" />
+
+    </LinearLayout>
+
+    <!-- Answer (hidden until the question is tapped) -->
+    <LinearLayout
+        android:id="@+id/answerContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="12dp"
+            android:background="#F0DCE4" />
+
+        <TextView
+            android:id="@+id/answerText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Prostaglandins, hormone-like chemicals, are thought to trigger the intense cramping in endometriosis."
+            android:textSize="15sp"
+            android:lineSpacingExtra="3dp"
+            android:textColor="#2B1F27" />
+
+    </LinearLayout>
+
+</LinearLayout>

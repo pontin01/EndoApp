@@ -4,7 +4,14 @@
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-        android:theme="@style/Theme.App">
+        android:icon="@mipmap/round_app_icon"
+        android:roundIcon="@mipmap/round_app_icon"
+        android:label="@string/appName"
+        android:theme="@style/Theme.AppCompat">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBE72_fq3M5maNUktPdVqu5ciUxVMhvt3U" />
 
         <activity
                 android:name=".Main"
@@ -17,12 +24,9 @@
 
         </activity>
 
-        <activity android:name=".ui.Login"
-            />
-        <activity android:name=".ui.SignUp"
-            />
-        <activity android:name=".ui.Home"
-            />
+        <activity android:name=".map.SpecialistFinder"
+            android:theme="@style/Theme.SpecialistFinder"/>
+
 
     </application>
 

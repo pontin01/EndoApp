@@ -44,7 +44,7 @@
             android:layout_height="25pt"
 
             android:autofillHints="emailAddress"
-            android:hint="@string/loginPage_usernameEmailInput"
+            android:hint="@string/loginPage_emailInput"
             android:inputType="textEmailAddress" />
 
         <!--Password Input-->
@@ -68,9 +68,9 @@
 
             android:text="Go"
             android:textSize="9pt" />
-        @color/red2
+
         <TextView
-            android:id="@+id/invalidLoginCredentials"
+            android:id="@+id/loginErrorMessage"
             android:layout_width="wrap_content"
             android:layout_height="10pt"
             android:layout_gravity="center"

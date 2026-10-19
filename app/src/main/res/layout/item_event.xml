@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/layout/item_event.xml : one event card -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/card_white_rounded"
+    android:padding="16dp"
+    android:layout_marginBottom="12dp"
+    android:elevation="2dp">
+
+    <TextView
+        android:id="@+id/eventTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Endometriosis Support Meetup"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:textColor="#2B1F27" />
+
+    <TextView
+        android:id="@+id/eventTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="🕒  6:30 PM – 8:00 PM"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        android:textColor="#C1577B" />
+
+    <TextView
+        android:id="@+id/eventLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="📍  Community Centre, Sydney"
+        android:textSize="12sp"
+        android:textColor="#8A7C82" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="#F0DCE4" />
+
+    <TextView
+        android:id="@+id/eventDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="A relaxed, welcoming evening to meet others and share experiences."
+        android:textSize="14sp"
+        android:lineSpacingExtra="3dp"
+        android:textColor="#2B1F27" />
+
+</LinearLayout>

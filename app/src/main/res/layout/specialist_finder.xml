@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    android:id="@+id/specialistFinderRoot"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/home_bg">
+
+    <!-- Map -->
+    <fragment xmlns:map="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/map_fragment"
+        class="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        map:mapId="MAP_ID"/>
+
+    <!-- Map Zoom Controls -->
+    <LinearLayout
+        android:id="@+id/zoomControls"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|start"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="84dp"
+        android:orientation="vertical"
+        android:elevation="6dp">
+
+        <!-- Zoom In -->
+        <Button
+            android:id="@+id/zoomInButton"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/map_zoom_button"
+            android:text="+"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:padding="0dp"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:contentDescription="Zoom in" />
+
+        <!-- Zoom Out -->
+        <Button
+            android:id="@+id/zoomOutButton"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/map_zoom_button"
+            android:text="−"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:padding="0dp"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:contentDescription="Zoom out" />
+
+    </LinearLayout>
+
+    <!-- Optional title overlay -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|start"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical"
+        android:background="@drawable/card_white_rounded"
+        android:elevation="6dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Find a specialist"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#2B1F27" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="Move the map to explore"
+            android:textSize="11sp"
+            android:textColor="#8A7C82" />
+
+    </LinearLayout>
+
+    <!-- Bottom navigation bar -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom">
+
+        <LinearLayout
+            android:id="@+id/bottomBar"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:orientation="horizontal"
+            android:gravity="bottom"
+            android:background="@color/bottom_bar_bg"
+            android:elevation="8dp"
+            android:paddingBottom="8dp">
+
+            <!-- Chat -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <ImageButton
+                    android:id="@+id/chatButton"
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/chat"
+                    android:background="@android:color/transparent"
+                    android:contentDescription="Chat" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:text="Chat"
+                    android:textSize="12sp"
+                    android:textColor="#000000" />
+
+            </LinearLayout>
+
+            <!-- Forum -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <ImageButton
+                    android:id="@+id/forumButton"
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/forum"
+                    android:background="@android:color/transparent"
+                    android:contentDescription="Forum" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:text="Forum"
+                    android:textSize="12sp"
+                    android:textColor="#000000" />
+
+            </LinearLayout>
+
+            <!-- Home spacer -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="bottom|center_horizontal">
+            </LinearLayout>
+
+            <!-- Articles -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <ImageButton
+                    android:id="@+id/articlesButton"
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/articles"
+                    android:background="@android:color/transparent"
+                    android:contentDescription="Articles" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:text="Articles"
+                    android:textSize="12sp"
+                    android:textColor="#000000" />
+
+            </LinearLayout>
+
+            <!-- Profile -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <ImageButton
+                    android:id="@+id/profileButton"
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/profile"
+                    android:background="@android:color/transparent"
+                    android:contentDescription="Profile" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:text="Profile"
+                    android:textSize="12sp"
+                    android:textColor="#000000" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Elevated Home button -->
+        <ImageButton
+            android:id="@+id/homeButton"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/nav_home_circle_bg"
+            android:elevation="10dp"
+            android:src="@drawable/home"
+            android:scaleType="centerInside"
+            android:padding="14dp"
+            android:contentDescription="Home" />
+
+    </FrameLayout>
+
+</FrameLayout>
