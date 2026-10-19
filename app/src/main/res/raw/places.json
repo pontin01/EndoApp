@@ -1,0 +1,576 @@
+[
+  {
+    "geometry": {
+      "location": {
+        "lat": -33.966859,
+        "lng": 151.134085
+      }
+    },
+    "name": "Dr Danny Chou",
+    "business_name": "Sydney Women's Endosurgery Centre",
+    "rating": 4.9,
+    "vicinity": "St George Private Hospital, Level 5, Suite 6A, 1 South St, Kogarah NSW 2217",
+    "region": "NSW, Metro",
+    "specialties": "Complex/Advanced Endometriosis (bowel, bladder, ureter, diaphragm, sciatic nerve)"
+  },
+  {
+    "geometry": {
+      "location": {
+        "lat": -33.966545,
+        "lng": 151.136105
+      }
+    },
+    "name": "A/Prof David Rosen",
+    "business_name": "",
+    "rating": 4.4,
+    "vicinity": "St George Private Hospital, Suite 10B, Level 3, 1 South St, Kogarah NSW 2217",
+    "region": "NSW, Metro",
+    "specialties": "Laparoscopic excision of all stages of endometriosis; pelvic pain; AGES/SWEC director"
+  },
+  {
+    "geometry": {
+      "location": {
+        "lat": -33.867015,
+        "lng": 151.211927
+      }
+    },
+    "name": "Dr Geoff Reid",
+    "business_name": "",
+    "rating": 0.0,
+    "vicinity": "Level 7, Park House, 187 Macquarie St, Sydney NSW 2000",
+    "region": "NSW, Metro (+ regional outreach)",
+    "specialties": "Endometriosis; advanced endoscopic surgery; fertility; past AGES board member"
+  },
+  {
+    "geometry": {
+      "location": {
+        "lat": -33.866854,
+        "lng": 151.211946
+      }
+    },
+    "name": "A/Prof Michael Cooper OAM",
+    "business_name": "",
+    "rating": 4.3,
+    "vicinity": "Level 7, Park House, 187 Macquarie St, Sydney NSW 2000",
+    "region": "NSW, Metro",
+    "specialties": "Advanced robotic endometriosis surgery; 6,500+ laparoscopic procedures; SWEC trainer"
+  },
+  {
+    "geometry": {
+      "location": {
+        "lat": -33.966630,
+        "lng": 151.136130
+      }
+    },
+    "name": "Dr Sarah Choi",
+    "business_name": "",
+    "rating": 5.0,
+    "vicinity": "St George Private Hospital, Suite 5, Level 3, 1 South St, Kogarah NSW 2217",
+    "region": "NSW, Metro",
+    "specialties": "Endometriosis; difficult hysterectomy; laparoscopic surgery; endometriosis surgery training in Italy (2016)"
+  },
+  {
+    "geometry": {
+      "location": {
+        "lat": -33.891477,
+        "lng": 151.180412
+      }
+    },
+    "name": "A/Prof Shannon Reid",
+    "business_name": "",
+    "rating": 4.5,
+    "vicinity": "Sonacare Women's Health and Ultrasound, Suite 1, Level 1, Harrington Plaza, 23 Fairwater Dr, Harrington Park NSW 2567",
+    "region": "NSW, Metro",
+    "specialties": "Endometriosis ultrasound diagnosis (Gel SVG); AGES Level 6 excision surgery"
+  },
+  {
+    "geometry": {
+      "location": {
+        "lat": -33.733273,
+        "lng": 151.099083
+      }
+    },
+    "name": "Dr Lauren Hofmann",
+    "business_name": "",
+    "rating": 4.9,
+    "vicinity": "Sydney Adventist Hospital, Wahroonga NSW",
+    "region": "NSW, Metro",
+    "specialties": "Endometriosis excision surgery and ultrasound; AGES fellowship; PhD (decision aid for endometriosis)"
+  },
+  {
+    "geometry": {
+      "location": {
+        "lat": -33.034564,
+        "lng": 151.111950
+      }
+    },
+    "name": "Dr Amani Harris",
+    "business_name": "",
+    "rating": 4.7,
+    "vicinity": "331 Port Hacking Rd, Miranda NSW 2228",
+    "region": "NSW, Metro",
+    "specialties": "AGES Level 6; M Advanced Gynaecological Surgery (WSU); MRepMed (UNSW); FRANZCOG training at Westmead; severe endometriosis; adenomyosis; complex hysterectomy; AGES board director; cofounder SMIGS"
+  },
+  {
+    "geometry": {
+      "location": {
+        "lat": -33.906848,
+        "lng": 151.223972
+      }
+    },
+    "name": "Dr Erin Nesbitt-Hawes",
+    "business_name": "",
+    "rating": 4.5,
+    "vicinity": "Alana Healthcare for Women; Prince of Wales Private, 88 Anzac Parade, Kensington NSW 2033",
+    "region": "NSW, Metro",
+    "specialties": "B Med(Hons), FRANZCOG, PhD; endometriosis; pelvic pain; laparoscopic surgery; AGES fellowship, Royal Hospital for Women"
+  },
+  {
+    "geometry": {
+      "location": {
+        "lat": -32.926129,
+        "lng": 151.762637
+      }
+    },
+    "name": "Dr Ashmita Desai",
+    "business_name": "",
+    "rating": 4.9,
+    "vicinity": "Brightwell Health; Lake Macquarie Private Hospital, 710 Hunter St, Newcastle West NSW 2302",
+    "region": "NSW, Regional (Newcastle/Hunter)",
+    "specialties": "MBBS, DNB O&G, DRANZCOG, FRANZCOG; AGES-affiliated advanced laparoscopic/robotic fellowship (Newcastle); excision of endometriosis; minimally invasive and pelvic floor surgery"
+  },
+  {
+    "geometry": {
+      "location": {
+        "lat": -34.425923,
+        "lng": 150.880769
+      }
+    },
+    "name": "A/Prof Lionel Reyftmann",
+    "business_name": "",
+    "rating": 4.9,
+    "vicinity": "Illawarra Reproductive Medicine & Laparoscopy, Wollongong Private Hospital, Suite 360/364 Crown St, Wollongong NSW 2500",
+    "region": "NSW, Regional (Illawarra)",
+    "specialties": "Laparoscopic and robotic surgery; fertility physician"
+  },
+  {
+    "geometry": {
+      "location": {
+        "lat": -34.424533,
+        "lng": 150.885801
+      }
+    },
+    "name": "A/Prof Bindu Murali",
+    "business_name": "",
+    "rating": 4.9,
+    "vicinity": "Loftus Specialist Clinic, Suite 1/17 Loftus St, Wollongong NSW 2500",
+    "region": "NSW, Regional (Illawarra)",
+    "specialties": "Obstetrician; Gynecologist"
+  },
+  {
+    "geometry": {
+      "location": {
+        "lat": -34.425419,
+        "lng": 150.884927
+      }
+    },
+    "name": "Dr Jodi Croft",
+    "business_name": "",
+    "rating": 4.8,
+    "vicinity": "385 Crown St, Wollongong NSW 2500",
+    "region": "NSW, Regional (Illawarra)",
+    "specialties": "MBBS (Hons), FRANZCOG; obstetrics and gynaecology training at St George Hospital and Wollongong Hospital; advanced gynaecology and laparoscopic surgery with Dr. Greg Robertson"
+  },
+  {
+    "geometry": {
+      "location": {
+        "lat": -31.078253,
+        "lng": 150.922175
+      }
+    },
+    "name": "Dr Blake Knapman",
+    "business_name": "",
+    "rating": 5.0,
+    "vicinity": "2 Dean St, North Tamworth NSW 2340",
+    "region": "NSW, Regional (North Tamworth)",
+    "specialties": "MBBS, B.App.Sc. (Diagnostic Radiography), Masters in Reproductive Medicine and Women’s Health Medicine (UNSW), FRANZCOG; AGES Certificate in advanced laparoscopy/hysteroscopy; ASUM Diploma of Diagnostic Ultrasound"
+  },
+  {
+    "geometry": {
+      "location": {
+        "lat": -28.818948,
+        "lng": 153.287783
+      }
+    },
+    "name": "North Coast Obstetrics & Gynaecology (Lismore)",
+    "business_name": "",
+    "rating": 5.0,
+    "vicinity": "North Coast Obstetrics & Gynaecology, 51 Avondale Ave, East Lismore NSW 2480",
+    "region": "NSW, Regional (Tamworth)",
+    "specialties": "Women's health and gynaecology"
+  },
+  {
+    "geometry": {
+      "location": {
+        "lat": -31.439389,
+        "lng": 152.908958
+      }
+    },
+    "name": "Dr Ray Hodgson",
+    "business_name": "",
+    "rating": 5.0,
+    "vicinity": "57 Lake Rd, Port Macquarie NSW 2444",
+    "region": "NSW, Regional",
+    "specialties": "Bachelor of Medicine, Bachelor of Surgery (MBBS); Member of the Royal College of Obstetricians and Gynaecologists (MRCOG London); Fellow of the Royal Australian College of Obstetricians and Gynaecologists (FRACOG); Degree in Cosmetic Medicine (2007)"
+  },
+  {
+    "geometry": {
+      "location": {
+        "lat": -30.316166,
+        "lng": 153.092834
+      }
+    },
+    "name": "Saige Health and Wellness",
+    "business_name": "",
+    "rating": 4.2,
+    "vicinity": "Specialist Medical Centre, Suite 209/343 Pacific Hwy, Coffs Harbour NSW 2450",
+    "region": "NSW, Regional (Coffs Coast)",
+    "specialties": "GP; gynaecologist; ultrasound; physio; midwifery for women"
+  },
+  {
+    "geometry": {
+      "location": {
+        "lat": -33.831562,
+        "lng": 151.186092
+      }
+    },
+    "name": "Sydney Women's Wellness (Dr Sarah Farrell)",
+    "business_name": "",
+    "rating": 4.9,
+    "vicinity": "2/95 Greenwich Rd, Greenwich NSW 2065",
+    "region": "NSW, Metro",
+    "specialties": "Endometriosis and PMDD management; women's health GP clinic with allied health"
+  },
+  {
+    "geometry": {
+      "location": {
+        "lat": -33.897887,
+        "lng": 151.174760
+      }
+    },
+    "name": "Sunrise Pelvic Physiotherapy",
+    "business_name": "",
+    "rating": 5.0,
+    "vicinity": "Unit 12/2A Gladstone St, Newtown NSW 2042",
+    "region": "NSW, Metro",
+    "specialties": "Pelvic floor health and wellness; bladder and bowel management; pelvic organ prolapse; sexual and pelvic pain; menopause"
+  },
+  {
+    "geometry": {
+      "location": {
+        "lat": -33.954565,
+        "lng": 151.130783
+      }
+    },
+    "name": "Women's Health Physiotherapy (Bexley)",
+    "business_name": "",
+    "rating": 5.0,
+    "vicinity": "15 Beaconsfield St, Bexley NSW 2207",
+    "region": "NSW, Metro",
+    "specialties": "Pelvic health; sexual pain; continence"
+  },
+  {
+    "geometry": {
+      "location": {
+        "lat": -33.743841,
+        "lng": 150.952621
+      }
+    },
+    "name": "Sydney Women's Physiotherapy",
+    "business_name": "",
+    "rating": 5.0,
+    "vicinity": "Unit 308, 10 Norbrik Dr, Bella Vista NSW 2153",
+    "region": "NSW, Metro",
+    "specialties": "Women's and pelvic health physiotherapy"
+  },
+  {
+    "geometry": {
+      "location": {
+        "lat": 0.0,
+        "lng": 0.0
+      }
+    },
+    "name": "Alexandra Middleton Naturopathic Nutritionist",
+    "business_name": "",
+    "rating": 4.8,
+    "vicinity": "Sydney (address not returned)",
+    "region": "NSW, Metro",
+    "specialties": "Female reproductive disorders including endometriosis and PCOS; in-person and online"
+  },
+  {
+    "geometry": {
+      "location": {
+        "lat": -33.869935,
+        "lng": 151.207304
+      }
+    },
+    "name": "Joanne Kennedy Naturopath",
+    "business_name": "",
+    "rating": 4.9,
+    "vicinity": "Level 5/428 George St, Sydney NSW 2000",
+    "region": "NSW, Metro",
+    "specialties": "Women's hormones; gut health"
+  },
+  {
+    "geometry": {
+      "location": {
+        "lat": -33.876359,
+        "lng": 151.155808
+      }
+    },
+    "name": "Emma Quine Acupuncture",
+    "business_name": "",
+    "rating": 5.0,
+    "vicinity": "2/314-316 Norton St, Leichhardt NSW 2040",
+    "region": "NSW, Metro",
+    "specialties": "Women's health and fertility acupuncture"
+  },
+  {
+    "geometry": {
+      "location": {
+        "lat": -33.866957,
+        "lng": 151.208776
+      }
+    },
+    "name": "Sydney Health & Wellness Centre",
+    "business_name": "",
+    "rating": 5.0,
+    "vicinity": "Level 4/88 Pitt St, Sydney NSW 2000",
+    "region": "NSW, Metro",
+    "specialties": "Principal practitioner holds dual master's in reproductive medicine and Chinese medicine; acupuncture; Chinese medicine; physio; fertility and pain"
+  },
+  {
+    "geometry": {
+      "location": {
+        "lat": -28.635125,
+        "lng": 153.579460
+      }
+    },
+    "name": "Elissa Pelling",
+    "business_name": "",
+    "rating": 5.0,
+    "vicinity": "Elissa Pelling Acupuncture, 4/17 Tasman Way, Byron Bay NSW 2481",
+    "region": "NSW, Regional (Byron Bay)",
+    "specialties": "Women's health acupuncture; hormonal issues; endometriosis; PCOS; fertility"
+  },
+  {
+    "geometry": {
+      "location": {
+        "lat": -37.816818,
+        "lng": 144.990456
+      }
+    },
+    "name": "Dr Kate Tyson",
+    "business_name": "",
+    "rating": 4.0,
+    "vicinity": "Epworth Freemasons / Julia Argyrou Endometriosis Centre, Suite 119, 320 Victoria Pde, East Melbourne VIC 3002",
+    "region": "VIC, Metro",
+    "specialties": "MBBS, FRANZCOG, MPH; AGES fellowship (Monash Health); endometriosis; pelvic pain; inaugural Director, Julia Argyrou Endometriosis Centre"
+  },
+  {
+    "geometry": {
+      "location": {
+        "lat": -37.809648,
+        "lng": 144.982547
+      }
+    },
+    "name": "Dr Lima Wetherell",
+    "business_name": "",
+    "rating": 5.0,
+    "vicinity": "Epworth Freemasons, Suite 114, 320 Victoria Pde, East Melbourne VIC 3002",
+    "region": "VIC, Metro",
+    "specialties": "MBBS, BBiomedSc, FRANZCOG, MRMed; AGES Fellowship (Monash Health); excisional endometriosis surgery including bowel disease"
+  },
+  {
+    "geometry": {
+      "location": {
+        "lat": -37.809658,
+        "lng": 144.982630
+      }
+    },
+    "name": "Dr Shami Kathurusinghe",
+    "business_name": "",
+    "rating": 4.4,
+    "vicinity": "Epworth Freemasons / Julia Argyrou Endometriosis Centre, 320 Victoria Pde, East Melbourne VIC 3002",
+    "region": "VIC, Metro",
+    "specialties": "FRANZCOG; AGES Fellowship; Endometriosis and Advanced Minimal Access Surgery Fellowship (Oxford); bowel and extra-pelvic endometriosis; neuropelveology certification"
+  },
+  {
+    "geometry": {
+      "location": {
+        "lat": -37.853466,
+        "lng": 145.029402
+      }
+    },
+    "name": "Dr Catarina Ang",
+    "business_name": "",
+    "rating": 0.0,
+    "vicinity": "Migynae (Malvern); Genea; Epworth Freemasons, 339 Glenferrie Rd, Malvern VIC 3144",
+    "region": "VIC, Metro",
+    "specialties": "Master of Reproductive Medicine; fellowships Oxford and Clermont-Ferrand; Director AGES program; endometriosis; complex fibroids; pelvic pain; Head of Gynaecology Unit 1, Royal Women's"
+  },
+  {
+    "geometry": {
+      "location": {
+        "lat": -37.810820,
+        "lng": 144.983870
+      }
+    },
+    "name": "Dr Inge Putri",
+    "business_name": "",
+    "rating": 4.4,
+    "vicinity": "Epworth Freemasons; St Vincent's Private Fitzroy, 109 Albert St, East Melbourne VIC 3002; North Melbourne VIC 3051",
+    "region": "VIC, Metro",
+    "specialties": "MBBS, BMedSci, MRepMed (Excellence), FRANZCOG; AGES Fellowship; endometriosis; adenomyosis; fibroids; robotic hysterectomy"
+  },
+  {
+    "geometry": {
+      "location": {
+        "lat": -27.461903,
+        "lng": 153.026942
+      }
+    },
+    "name": "Dr Albert Jung",
+    "business_name": "",
+    "rating": 5.0,
+    "vicinity": "Queensland Fertility Group, Spring Hill; Mater Private Brisbane, Level 1/203 Wharf St, Spring Hill QLD 4000",
+    "region": "QLD, Metro",
+    "specialties": "MBBS; AGES Laparoscopic Fellowship (2020); MRepMed (UNSW); endometriosis; pelvic pain; pelvic floor botox for complex pain; Mater public appointment"
+  },
+  {
+    "geometry": {
+      "location": {
+        "lat": -27.461657,
+        "lng": 153.024578
+      }
+    },
+    "name": "A/Prof Anusch Yazdani",
+    "business_name": "",
+    "rating": 4.5,
+    "vicinity": "Eve Health, Spring Hill; Mater hospitals, Boundary Court, Level 1/55 Little Edward St, Spring Hill QLD 4000",
+    "region": "QLD, Metro",
+    "specialties": "MBBS (Hons), FRANZCOG, CREI; endometriosis; pelvic pain; minimally invasive surgery; QIMIS co-founder; AGES director"
+  },
+  {
+    "geometry": {
+      "location": {
+        "lat": -27.465352,
+        "lng": 153.023318
+      }
+    },
+    "name": "Dr Katherine Strawson",
+    "business_name": "",
+    "rating": 0.0,
+    "vicinity": "Watkins Medical Centre, 3rd Floor, 225 Wickham Tce, Brisbane QLD 4000",
+    "region": "QLD, Metro",
+    "specialties": "IFEPAG; AGES and QPPPN member; surgical removal of endometriosis; chronic pelvic pain; adolescent gynaecology"
+  },
+  {
+    "geometry": {
+      "location": {
+        "lat": -32.068876,
+        "lng": 115.846581
+      }
+    },
+    "name": "Dr Sean Copson",
+    "business_name": "",
+    "rating": 4.8,
+    "vicinity": "St John of God Subiaco, Suite 317/25 McCourt St, Subiaco WA 6008",
+    "region": "WA, Metro",
+    "specialties": "MBBS, FRANZCOG; AGES Fellowship (KEMH); endometriosis; complex laparoscopic surgery; endometriosis research with UWA; telehealth"
+  },
+  {
+    "geometry": {
+      "location": {
+        "lat": -31.941542,
+        "lng": 115.825686
+      }
+    },
+    "name": "Dr Yogender Yadav",
+    "business_name": "",
+    "rating": 0.0,
+    "vicinity": "Advanced Laparoscopy and Gynaecology Centre (ALGC), Suite 110, Tower C, 44 Barry Marshall Pde, Murdoch WA 6150",
+    "region": "WA, Metro",
+    "specialties": "MBBS, FRANZCOG; AGES fellowship (Flinders); endometriosis excision; level 6 laparoscopy; lead advanced laparoscopy at Fiona Stanley"
+  },
+  {
+    "geometry": {
+      "location": {
+        "lat": -34.921519,
+        "lng": 138.623417
+      }
+    },
+    "name": "Dr Jade Acton",
+    "business_name": "",
+    "rating": 3.9,
+    "vicinity": "St John of God Subiaco; Western Australian Gynae & Surgery, Subiaco WA (suite address not returned)",
+    "region": "WA, Metro",
+    "specialties": "MBBS, FRANZCOG, MSurgEd; AGES fellowship; endometriosis; complex laparoscopic surgery; KEMH public appointment"
+  },
+  {
+    "geometry": {
+      "location": {
+        "lat": -34.927641,
+        "lng": 138.638768
+      }
+    },
+    "name": "Prof Louise Hull",
+    "business_name": "",
+    "rating": 4.0,
+    "vicinity": "Embrace Fertility (Genea); Women's and Children's Hospital, 1 The Parade, Norwood SA 5067",
+    "region": "SA, Metro",
+    "specialties": "BSc, MBChB, PhD, FRANZCOG, CREI; endometriosis research lead (Univ. Adelaide); endometriosis patients with fertility problems; young women with pelvic pain"
+  },
+  {
+    "geometry": {
+      "location": {
+        "lat": -42.880876,
+        "lng": 147.329743
+      }
+    },
+    "name": "Dr Carolyn Marlow",
+    "business_name": "",
+    "rating": 0.0,
+    "vicinity": "Burnside War Memorial Hospital rooms, Suite 4, 120 Kensington Rd, Toorak Gardens SA 5065",
+    "region": "SA, Metro",
+    "specialties": "FRANZCOG; MBBS (Flinders, 1995); incontinence/prolapse; pelvic pain; endometriosis"
+  },
+  {
+    "geometry": {
+      "location": {
+        "lat": -42.880239,
+        "lng": 147.329800
+      }
+    },
+    "name": "Dr Tim Hasted",
+    "business_name": "",
+    "rating": 5.0,
+    "vicinity": "Hobart Private Hospital, Corner Argyle & Collins Sts, Hobart TAS 7000",
+    "region": "TAS, Metro",
+    "specialties": "FRANZCOG, BA(Hons1), MBBS, MReprodMed; endometriosis; pelvic pain; fertility; first Tasmanian surgeon offering vNOTES"
+  },
+  {
+    "geometry": {
+      "location": {
+        "lat": -33.962554,
+        "lng": 151.095960
+      }
+    },
+    "name": "Dr David Gartlan",
+    "business_name": "",
+    "rating": 4.4,
+    "vicinity": "Private rooms opposite Hobart Private Hospital, Level 3, 34 Argyle St, Hobart TAS 7000",
+    "region": "TAS, Metro",
+    "specialties": "MBBS (Univ. Tasmania 1994); O&G training at Royal Hobart Hospital; general gynaecology including endometriosis and laparoscopy"
+  }
+]

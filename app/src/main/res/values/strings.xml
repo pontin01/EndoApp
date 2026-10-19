@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-<!--    Opening Page    -->
+<!--App Configs-->
+    <string name="appName">EndoTheLine</string>
+
+    <!--    Opening Page    -->
     <string name="openingPage_login">Login</string>
     <string name="openingPage_signUp">Sign Up</string>
-    <string name="openingPage_logo">EndoApp</string>
+    <string name="openingPage_logo">EndoTheLine</string>
 
 <!--    Login Page    -->
-    <string name="loginPage_usernameEmailInput">Username or Email</string>
+    <string name="loginPage_emailInput">Email</string>
     <string name="loginPage_passwordInput">Password</string>
     <string name="loginPage_title">Login</string>
     <string name="loginPage_backButton">Back</string>
