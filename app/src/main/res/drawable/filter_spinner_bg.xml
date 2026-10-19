@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/drawable/filter_spinner_bg.xml : rounded white box with a pink outline and a dropdown arrow -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/white" />
+            <stroke android:width="1dp" android:color="#C1577B" />
+            <corners android:radius="14dp" />
+        </shape>
+    </item>
+    <item
+        android:gravity="center_vertical|end"
+        android:right="12dp">
+        <rotate
+            android:drawable="@android:drawable/arrow_down_float"
+            android:fromDegrees="0"
+            android:toDegrees="0" />
+    </item>
+</layer-list>
