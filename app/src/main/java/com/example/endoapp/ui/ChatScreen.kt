@@ -11,7 +11,10 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.viewinterop.AndroidView
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -27,8 +30,25 @@ fun ChatScreen(
     onHomeClick: () -> Unit,
     onArticlesClick: () -> Unit,
     onProfileClick: () -> Unit,
-    viewModel: ChatViewModel = viewModel()
 ) {
+    val context = LocalContext.current
+
+    val viewModel: ChatViewModel = viewModel(
+        factory = object : ViewModelProvider.Factory {
+            override fun <T : ViewModel> create(
+                modelClass: Class<T>
+            ): T {
+                if (modelClass.isAssignableFrom(ChatViewModel::class.java)) {
+                    @Suppress("UNCHECKED_CAST")
+                    return ChatViewModel(
+                        context = context
+                    ) as T
+                }
+                throw IllegalArgumentException("Unknown ViewModel class")
+            }
+        }
+    )
+
     val messages by viewModel.messages.collectAsState()
     val isTyping by viewModel.isTyping.collectAsState()
 

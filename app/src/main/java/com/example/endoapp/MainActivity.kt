@@ -24,12 +24,21 @@ import com.example.endoapp.ui.ProfileScreen
 import com.example.endoapp.ui.SignUpScreen
 import com.example.endoapp.ui.SpecialistFinderScreen
 import com.example.endoapp.ui.StartScreen
+import com.google.firebase.Firebase
+import com.google.firebase.appcheck.appCheck
+import com.google.firebase.appcheck.debug.DebugAppCheckProviderFactory
+import com.google.firebase.initialize
 
 class Main : ComponentActivity() {
 
     @RequiresApi(Build.VERSION_CODES.O)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+//        Firebase.initialize(context = this)
+//        Firebase.appCheck.installAppCheckProviderFactory(
+//            DebugAppCheckProviderFactory.getInstance(),
+//        )
 
         setContent {
             EndoApp()

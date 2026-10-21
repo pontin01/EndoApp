@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "769799411959",
+    "project_id": "endoapp-4b735",
+    "storage_bucket": "endoapp-4b735.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:769799411959:android:f88dabf94543bedc315bf2",
+        "android_client_info": {
+          "package_name": "com.example.endoapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYZqUA9LY72Yb6k8-SbDP1t2f0sCtSZEY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
